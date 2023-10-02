@@ -10,8 +10,8 @@ import ThemeContextProvider from "@/context/theme-context";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Ricardo | Personal Portfolio",
-  description: "Ricardo is a full-stack dev",
+  title: "Alexandru Popescu | Portfolio",
+  description: "Personal portfolio of Alexandru Popescu, a software developer based in Bucharest, Romania.",
 };
 
 export default function RootLayout({
