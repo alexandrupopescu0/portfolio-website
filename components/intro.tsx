@@ -20,7 +20,7 @@ export default function Intro() {
       <div className='flex items-center justify-center'>
             <div className='relative'>
                 <motion.div initial={{opacity: 0, scale: 0}} animate={{opacity: 1, scale: 1}} transition={{type: "tween", duration: 0.2}}>
-                    <Image src="https://media.licdn.com/dms/image/C4D03AQE8Vc3r22oL3g/profile-displayphoto-shrink_400_400/0/1647896548829?e=1701907200&v=beta&t=6TggrSnm_N8aE5XZWQJKvxtB2YuP1C59oyNOeE62CII" alt="Ricardo portrait" width={192} 
+                    <Image src=""https://media.licdn.com/dms/image/C4D03AQE8Vc3r22oL3g/profile-displayphoto-shrink_400_400/0/1647896549193?e=1712188800&v=beta&t=LbeolrIfsVTq2veIdHFn0UqqzoPCMlrGFJymmFcVPXI"" alt= Alex portrait" width={192} 
                     height={192} quality={95} priority={true} className='h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl'/> 
                 </motion.div>
                 <motion.span className='absolute bottom-0 right-0 text-3xl' initial={{opacity: 0, scale: 0}} animate={{opacity: 1, scale: 1}} 
