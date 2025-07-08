@@ -2,6 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import StockPage from "@/public/llicenta_buyStock_page.png";
+import CursPage from "@/public/poza_aplicatie_portofoliu.jpeg";
 
 export const links = [
   {
@@ -55,6 +56,14 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "2022 - present",
   },
+  {
+    title: "Independent Investor",
+    location: "Bucharest, Romania",
+    description:
+      "Over 1 year of active investing experience in both the Romanian Stock Exchange (BVB) and U.S. stock markets",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 - present",
+  },
 ] as const;
 
 export const projectsData = [
@@ -64,6 +73,13 @@ export const projectsData = [
       "The application has a user interface that allows users to buy and sell stocks, and a backend that handles the transactions and stores the data.",
     tags: ["Python", "Django", "HTML", "CSS", "SQLite", "Javascript"],
     imageUrl: StockPage,
+  },
+  {
+    title: "Curs Valutar Banci",
+    description:
+      "A mobile app delivering real-time Romanian bank exchange rates, notifications, and a currency calculator.",
+    tags: ["Python", "FastAPI", "HTML", "CSS", "React", "Typescript", "Firebase"],
+    imageUrl: CursPage,
   },
 ] as const;
 

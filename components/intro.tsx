@@ -20,7 +20,7 @@ export default function Intro() {
       <div className='flex items-center justify-center'>
             <div className='relative'>
                 <motion.div initial={{opacity: 0, scale: 0}} animate={{opacity: 1, scale: 1}} transition={{type: "tween", duration: 0.2}}>
-                    <Image src="https://media.licdn.com/dms/image/C4D03AQE8Vc3r22oL3g/profile-displayphoto-shrink_400_400/0/1647896548829?e=1701907200&v=beta&t=6TggrSnm_N8aE5XZWQJKvxtB2YuP1C59oyNOeE62CII" alt="Ricardo portrait" width={192} 
+                    <Image src="/poza_cv.jpg" alt="Alex portrait" width={192} 
                     height={192} quality={95} priority={true} className='h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl'/> 
                 </motion.div>
                 <motion.span className='absolute bottom-0 right-0 text-3xl' initial={{opacity: 0, scale: 0}} animate={{opacity: 1, scale: 1}} 
@@ -50,7 +50,7 @@ export default function Intro() {
         <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition'/></Link>
 
         <a className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 
-        active:scale-105 transition cursor-pointer border broder-black/10 dark:bg-white/10' href='/CV.pdf' download>Download CV <HiDownload className='opacity-60 group-hover:translate-y-1 transition'/>
+        active:scale-105 transition cursor-pointer border broder-black/10 dark:bg-white/10' href='/Popescu_Alexandru_resume.pdf' download>Download CV <HiDownload className='opacity-60 group-hover:translate-y-1 transition'/>
         </a>
 
         <a className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] 
